@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  border-radius: 0.8rem;
+}
+
+.card {
+  max-width: 32.7rem;
+  padding: 4.8rem 4.75rem 4.8rem 4.85rem;
+}
+
+.sedans {
+  background-color: #e28625;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.suvs {
+  background-color: #006971;
+}
+
+.luxury {
+  background-color: #004140;
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.icon {
+  margin-bottom: 3.5rem;
+}
+
+.heading {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #f2f2f2;
+  margin-bottom: 2.5rem;
+}
+
+.card-text {
+  font-family: "Lexend Deca", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.learn-more-link:link {
+  font-family: "Lexend Deca", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  background-color: #f2f2f2;
+  border-radius: 2.5rem;
+  padding: 1.1rem 3.15rem 1.2rem 3.15rem;
+  text-decoration: none;
+}
+
+.sedan-link:link,
+.sedan-link:visited {
+  color: #e28625;
+}
+
+.suv-link:link,
+.suv-link:visited {
+  color: #006971;
+}
+
+.luxury-link:link,
+.luxury-link:visited {
+  color: #004140;
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .card {
+    max-width: 30.7rem;
+    padding: 4.8rem 4.75rem 4.8rem 4.75rem;
+  }
+
+  .sedans {
+    border-radius: 0.8rem 0 0 0.8rem;
+  }
+
+  .luxury {
+    border-radius: 0 0.8rem 0.8rem 0;
+  }
+
+  .card-text {
+    margin-bottom: 8.3rem;
+  }
+
+  .sedan-link:hover {
+    color: #fff;
+    background-color: #e28625;
+    border: 2px solid #fff;
+  }
+
+  .suv-link:hover {
+    color: #fff;
+    background-color: #006971;
+    border: 2px solid #fff;
+  }
+
+  .luxury-link:hover {
+    color: #fff;
+    background-color: #004140;
+    border: 2px solid #fff;
+  }
+}
