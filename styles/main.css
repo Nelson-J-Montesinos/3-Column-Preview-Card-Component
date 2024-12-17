@@ -22,6 +22,7 @@ body {
 
 .card {
   max-width: 32.7rem;
+  min-height: 44.2rem;
   padding: 4.8rem 4.75rem 4.8rem 4.85rem;
 }
 
@@ -98,6 +99,7 @@ body {
 
   .card {
     max-width: 30.7rem;
+    min-height: 50rem;
     padding: 4.8rem 4.75rem 4.8rem 4.75rem;
   }
 
